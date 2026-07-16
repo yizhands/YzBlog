@@ -57,7 +57,7 @@ export default defineConfig({
   description: '个人技术博客',
   base: '/repo-name/',         // 仓库名，项目站点必需
   publicDir: '../assets',      // 图片存放目录
-  cleanUrls: true,             // 去掉 .html 后缀
+  cleanUrls: false,            // GitHub Pages 不支持无后缀，必须关掉
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

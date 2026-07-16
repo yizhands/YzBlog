@@ -12,8 +12,8 @@ export default defineConfig({
   // 静态资源目录：映射到项目根目录 assets/，图片用根路径引用如 /photo.jpg
   publicDir: '../assets',
 
-  // 生成干净的 URL，去掉 .html 后缀
-  cleanUrls: true,
+  // GitHub Pages 不支持无后缀 URL，必须设为 false
+  cleanUrls: false,
 
   // <head> 内的 HTML 标签注入
   head: [
