@@ -1,0 +1,139 @@
+.post-list {
+  margin-top: 48px;
+}
+
+.post-item {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.post-item:first-child {
+  padding-top: 0;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.post-title a {
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-title a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+
+.post-date {
+  white-space: nowrap;
+}
+
+.post-category {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.post-category:hover {
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-white);
+}
+
+.post-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.post-tag:hover {
+  background: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-1);
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.post-tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tag-cloud-item {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.tag-cloud-item:hover {
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-white);
+}
+
+.category-list {
+  margin: 20px 0;
+}
+
+.category-item {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.category-item:first-child {
+  padding-top: 0;
+}
+
+.category-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--vp-c-brand-1);
+}
+
+.category-post {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.category-post a {
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.category-post a:hover {
+  color: var(--vp-c-brand-1);
+}

@@ -1,0 +1,11 @@
+# 依赖
+node_modules/
+
+# 构建输出
+docs/.vitepress/dist/
+
+# VitePress 缓存
+docs/.vitepress/cache/
+
+# macOS
+.DS_Store
