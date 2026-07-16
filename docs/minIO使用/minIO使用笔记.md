@@ -1,6 +1,6 @@
 ---
 title: minIO 使用笔记
-date: 2026-07-16
+date: 2024-07-16
 category: 中间件
 tags:
   - minIO
