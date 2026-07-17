@@ -3,6 +3,7 @@ title: 文章分类
 ---
 
 <script setup>
+import { withBase } from 'vitepress'
 import { data as categories } from './categories.data.ts'
 </script>
 
@@ -17,7 +18,7 @@ import { data as categories } from './categories.data.ts'
       </span>
     </h2>
     <div class="category-post" v-for="post in cat.posts" :key="post.url">
-      <a :href="post.url">{{ post.frontmatter.title }}</a>
+      <a :href="withBase(post.url)">{{ post.frontmatter.title }}</a>
       <span style="margin-left: 8px; font-size: 12px; color: var(--vp-c-text-3);">
         {{ post.frontmatter.date }}
       </span>
